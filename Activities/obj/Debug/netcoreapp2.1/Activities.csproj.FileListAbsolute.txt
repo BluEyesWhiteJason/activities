@@ -1,0 +1,11 @@
+/Users/jason/Projects/Activities/Activities/bin/Debug/netcoreapp2.1/Activities.deps.json
+/Users/jason/Projects/Activities/Activities/bin/Debug/netcoreapp2.1/Activities.runtimeconfig.json
+/Users/jason/Projects/Activities/Activities/bin/Debug/netcoreapp2.1/Activities.runtimeconfig.dev.json
+/Users/jason/Projects/Activities/Activities/bin/Debug/netcoreapp2.1/Activities.dll
+/Users/jason/Projects/Activities/Activities/bin/Debug/netcoreapp2.1/Activities.pdb
+/Users/jason/Projects/Activities/Activities/obj/Debug/netcoreapp2.1/Activities.csprojAssemblyReference.cache
+/Users/jason/Projects/Activities/Activities/obj/Debug/netcoreapp2.1/Activities.csproj.CoreCompileInputs.cache
+/Users/jason/Projects/Activities/Activities/obj/Debug/netcoreapp2.1/Activities.AssemblyInfoInputs.cache
+/Users/jason/Projects/Activities/Activities/obj/Debug/netcoreapp2.1/Activities.AssemblyInfo.cs
+/Users/jason/Projects/Activities/Activities/obj/Debug/netcoreapp2.1/Activities.dll
+/Users/jason/Projects/Activities/Activities/obj/Debug/netcoreapp2.1/Activities.pdb
