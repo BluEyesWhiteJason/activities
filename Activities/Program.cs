@@ -13,28 +13,30 @@ namespace Activities
             Console.WriteLine("2) Chill Times");
             Console.WriteLine("3) Danger");
             Console.WriteLine("4) Good Food");
-            Console.Write("Please enter the number of your selection: ");
 
-
-            int activity = Convert.ToInt32(Console.ReadLine());
-
-            // If input isn't one of the ones shown, ask again
-            while (activity > 4 || activity < 1)
+            // If input is invalid, try again
+            // TryParse method from here https://docs.microsoft.com/en-us/dotnet/api/system.int32.tryparse?view=netframework-4.8
+            string actInput;
+            int activity = 0;
+            bool isNumeric = false;
+            while (!isNumeric || activity > 4 || activity < 1)
             {
-                Console.Write("Please enter one of the listed numbers: ");
-                activity = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Please enter the number of your selection: ");
+                actInput = Console.ReadLine();
+                isNumeric = int.TryParse(actInput, out activity);
             }
 
-            // How many people
-            Console.WriteLine("How many people are you bringing with you?");
 
-            int friends = Convert.ToInt32(Console.ReadLine());
-
-            // Check input
-            while (friends < 0)
+            // Get number of freinds and check input
+            string friendInput;
+            int friends = -1;
+            isNumeric = false;
+            while (friends < 0 || !isNumeric)
             {
-                Console.Write("You can't have negative friends! Please try again: ");
-                friends = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("How many people are you bringing with you?");
+                friendInput = Console.ReadLine();
+                isNumeric = int.TryParse(friendInput, out friends);
+
             }
 
             // Pick the activity
